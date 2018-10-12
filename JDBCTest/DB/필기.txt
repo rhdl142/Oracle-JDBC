@@ -1,0 +1,59 @@
+C:\Class\Java\DB\필기.txt
+
+
+OracleXE112_Win64.zip : 오라클, 데이터베이스, DBMS, 서버
+SQL Developer : 클라이언트 툴
+---------------------------------------------------
+eXERD : 모델링 툴
+
+
+오라클, Oracle
+- 회사명
+- 제품명(데이터베이스 + 데이터베이스 관리 시스템(DBMS))
+- 응용 프로그램(X), 서비스 프로그램(O)
+- Win + R(실행) > services.msc 
+	1. OracleServiceXE
+		- 데이터베이스 서버 서비스
+	2. OracleXETNSListener
+		- 클라이언트 요청 관리 서비스
+
+
+오라클 서비스 시작/멈춤
+1. 바로가기 메뉴 사용
+2. C:\oraclexe\app\oracle\product\11.2.0\server\bin
+	a. StartDB.bat(배치 파일 - 명령어 집합)
+	b. StopDB.bat
+3. 직접
+	cmd > net start 서비스명
+	cmd > net stop 서비스명
+	cmd > net start OracleServiceXE
+	cmd > net stop OracleServiceXE
+	
+
+데이터베이스 클라이언트 툴
+- SQL Developer(***)
+- Toad
+- Query Box
+- SQLGate
+- DataGrip(**)
+
+
+
+
+127.0.0.1
+- 특별한 IP 주소
+- 루프백(Loop Back), 핑(Ping) 주소
+- 나 자신을 뜻하는 예약된 IP 주소
+- localhost(운영체제에 의해서 정해짐)
+	- C:\Windows\System32\drivers\etc\hosts
+
+
+
+
+
+
+
+
+
+
+
